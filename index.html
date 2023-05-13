@@ -41,6 +41,17 @@
             height: 200px;
             width: 200px;
         }
+        .shape{
+         animation: text 3s linear infinite alternate;
+          }
+@keyframes text{
+    from{
+        transform: scale(0.75);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
 
         .shape:first-child {
             background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(223, 233, 148, 1) 100%);
